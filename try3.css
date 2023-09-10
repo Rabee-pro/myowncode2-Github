@@ -1053,15 +1053,15 @@
 
 .LogInPage{
     margin-left: 30px;
-    width: 400px;
+    width: 280px;
 }
 
 #email{
-    width: 300px;
+    width: 260px;
 }
 
 #password{
-    width: 300px;
+    width: 260px;
 }
 
 .signuppage{
@@ -1149,7 +1149,7 @@
 }
 
 .areaChartExam{
-    width: 450px;
+    width: 280px;
 }
 
 .barAndpie{
@@ -1157,12 +1157,12 @@
 }
 
 .barChartExam{
-    width: 400px;
+    width: 280px;
     
 }
 
 .pieChartExam{
-    width: 400px;
+    width: 280px;
     margin-top: 5px;
 }
 
@@ -1173,7 +1173,7 @@
 }
 
 .tableExam{
-    width: 450px;
+    width: 280px;
 }
 /* Card Detail    like primary, warning, successs, & danger cards  */
 
