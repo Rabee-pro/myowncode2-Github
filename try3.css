@@ -1056,12 +1056,19 @@
     width: 300px;
 }
 
+    .login{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
 #email{
     width: 250px;
+    margin-left: 20px;
 }
 
 #password{
     width: 250px;
+    margin-left: 20px;
 }
 
 .signuppage{
