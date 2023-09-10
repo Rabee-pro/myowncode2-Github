@@ -1076,65 +1076,65 @@
 }
 
 .creatAccInPage{
-    margin-left: 30px;
-    width: 400px;
+    margin-left: 20px;
+    width: 280px;
     height: 700px;
 }
 
 .creatAccInPage h1{
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 .FirstName{
-    width: 300px;
+    width: 260px;
 }
 
 .LastName{
     margin-left: 0px;
     margin-top: 20px;
-    width: 300px;
+    width: 260px;
 }
 
 .creatAccInPage .EmailAddress{
-    width: 300px;
+    width: 260px;
 }
 
 .passWordWhole .password{
-    width: 300px;
+    width: 260px;
 }
 
 .passWordWhole .confirmpassWord{
-    width: 300px;
+    width: 260px;
     margin-top: 20px;
     margin-left: 0px;
 }
 
 .HaveAcc{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 /* PASS WORD RECOVERY PAGE CSS CODE */
 .passwordRecovery{
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 
 .passWordRecoveryinPage{
-    width: 400px;
+    width: 260px;
     height: 450px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .passWordRecoveryinPage h1{
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 .passWordRecoveryinPage .EmailS{
-    width: 350px;
+    width: 240px;
 }
 
 .NeedAnAcc{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .passRecoveryLine{
