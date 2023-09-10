@@ -1052,20 +1052,20 @@
 }
 
 .LogInPage{
-    margin-left: 30px;
-    width: 280px;
+    margin-left: 10px;
+    width: 300px;
 }
 
 #email{
-    width: 260px;
+    width: 250px;
 }
 
 #password{
-    width: 260px;
+    width: 250px;
 }
 
 .signuppage{
-    margin-left: 70px;
+    margin-left: 30px;
 }
 
    
@@ -1076,35 +1076,35 @@
 }
 
 .creatAccInPage{
-    margin-left: 20px;
-    width: 280px;
+    margin-left: 10px;
+    width: 300px;
     height: 700px;
 }
 
 .creatAccInPage h1{
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .FirstName{
-    width: 260px;
+    width: 250px;
 }
 
 .LastName{
     margin-left: 0px;
     margin-top: 20px;
-    width: 260px;
+    width: 250px;
 }
 
 .creatAccInPage .EmailAddress{
-    width: 260px;
+    width: 250px;
 }
 
 .passWordWhole .password{
-    width: 260px;
+    width: 250px;
 }
 
 .passWordWhole .confirmpassWord{
-    width: 260px;
+    width: 250px;
     margin-top: 20px;
     margin-left: 0px;
 }
@@ -1120,13 +1120,13 @@
 }
 
 .passWordRecoveryinPage{
-    width: 260px;
+    width: 300px;
     height: 450px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .passWordRecoveryinPage h1{
-    margin-left: 10px;
+    margin-left: -50px;
 }
 
 .passWordRecoveryinPage .EmailS{
@@ -1134,7 +1134,7 @@
 }
 
 .NeedAnAcc{
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .passRecoveryLine{
