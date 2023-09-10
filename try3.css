@@ -1,0 +1,1227 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/*fpontainer = first page whole container   */
+.fpContainer{
+    height: 200vh;
+    width: 99vw;
+    
+}
+
+/* navbar code */
+.navbar{
+    background-color: rgb(47, 45, 45);
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+
+}
+
+.navbar h3{                      /* navbar heading tag */
+    color: white;
+    font-size: 20px;
+    margin-top: 10px; 
+    margin-left: 20px;
+    
+}
+
+.hamburgerMenu{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.hamburgerMenu .fa-bars{
+    color: rgb(195, 191, 191);
+}
+
+.searchbar{
+    margin-left: 950px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* .searchbar .searchPlace{
+    margin-top: 5px;
+    margin-left: 5px;
+}  */
+
+.searchbar .fa-magnifying-glass{
+    color: white;
+    background-color: rgb(44, 117, 242);
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 50px;
+    height: 40px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.UserDetail{
+    margin-left: 50px;
+}
+
+.UserDetail .fa-user{
+    color: rgb(195, 191, 191);
+}
+
+.UserDetail .fa-caret-down{
+    color: rgb(195, 191, 191);
+}
+
+/* side Menu */
+.sideMenu{
+    display: none;
+}
+.sideMenu1{
+    position: absolute;
+    left: 0;
+    top: 70px;
+    background-color: rgb(47, 45, 45);
+    width: 250px;
+    height: 1500px;
+    padding: 10px;
+    /* display: none; */
+}
+
+.sideMenu1 h5{
+    color: rgb(195, 191, 191);
+}
+
+.core{
+    margin-top: 10px;
+    display: flex;
+    padding: 20px;
+}
+
+.core .fa-gauge{
+     color: rgb(195, 191, 191);
+}
+
+.core a{
+    color: rgb(195, 191, 191);
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.core a:hover{
+    color: white;
+}
+
+.interfaceOut{
+    margin-top: 10px;
+}
+
+.interFace{
+    margin-top: 10px;
+}
+
+.layout{
+    display: flex;
+    margin-left: 5px;
+    padding: 10px;
+    color: rgb(195, 191, 191);
+}
+
+.layout a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(195, 191, 191);
+}
+
+.layout a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.layout .fa-greater-than{
+    margin-left: 130px;
+}
+
+.layoutUl .layoption1{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.layoutUl .layoption2{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.layout :nth-child(4){
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: -200px;
+}
+
+.pages{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+.pages a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(195, 191, 191);
+}
+
+.pages a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.pages .fa-greater-than{
+    margin-left: 134px;
+}
+
+.pages .fa-book-open{
+    color: rgb(195, 191, 191);
+}
+
+.Authentic{
+    /* list-style: none; */
+    flex-direction: column;
+    /* padding: 10px; */
+    margin-top: 30px;
+    margin-left: -200px;
+}
+
+.Authentic li{
+    list-style: none;
+}
+
+.Authentic a{
+    margin-left: 10px;
+}
+
+.AuthenticInUL {
+    margin: 20px;
+
+}
+
+.AuthenticInUL li{
+    margin-top: 20px;
+}
+
+.ErrorPages li{
+    margin: 20px;
+}
+
+.addonsOut{
+    margin-top: 10px;
+}
+
+.addons{
+    margin-top: 10px;
+}
+
+.charts{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(195, 191, 191);
+}
+
+.charts a{
+    color: rgb(195, 191, 191);
+    text-decoration: none;
+    margin-left: 10px;  
+}
+
+.charts a:hover{
+    color: white;
+}
+
+
+
+.tables{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(195, 191, 191);
+}
+
+.tables a{
+    color: rgb(195, 191, 191);
+    text-decoration: none;
+    margin-left: 10px; 
+}
+
+.tables a:hover{
+    color: white;
+}
+
+/* class = dash board paragragh & heading tags  */
+.dashBoard{
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+.dashBoard p{
+    margin-top: 10px;
+    color: rgb(78, 76, 76);
+    margin-bottom: 20px;
+}
+
+/* Card Detail    like primary, warning, successs, & danger cards  */
+.cardDetails{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.cardDetails p{
+    color: white;
+    margin-left: 10px;
+}
+
+.cardDetails a{
+    color: white;
+    margin-left: 10px;
+}
+
+.viewDet{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.fa-greater-than{
+    color: white;
+    margin-top: 10px;
+    /* font-weight: 100px; */
+    font-size: 10px;
+}
+
+.line1{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(4, 4, 85);
+    margin-top: 40px;
+    
+}
+
+.primaryCard{
+    background-color: rgb(44, 117, 242);
+    border: solid 1px rgb(4, 4, 85);
+    border-radius: 5px;
+    height: 100px;
+    width: 340px;
+}
+
+.line2{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(104, 104, 9);
+    margin-top: 40px;
+}
+
+.warningCard{
+    background-color: rgb(230, 201, 34);
+    border: solid 1px rgb(104, 104, 9);
+    border-radius: 5px;
+    height: 100px;
+    width: 340px;
+}
+
+.line3{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(5, 43, 5);
+    margin-top: 40px;
+}
+
+.successCard{
+    background-color: rgb(26, 130, 80);
+    border: solid 1px rgb(5, 43, 5);
+    border-radius: 5px;
+    height: 100px;
+    width: 340px;
+}
+
+.line4{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(70, 4, 4);
+    margin-top: 40px;
+}
+
+.dangerCard{
+    background-color: rgb(243, 57, 72);
+    border: solid 1px rgb(70, 4, 4);
+    border-radius: 5px;
+    height: 100px;
+    width: 340px;
+}
+
+/* differet kind of chart exlpanation      chartEg=chart example*/
+
+.ChartEg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.AreaChart{
+     height: 300px;
+     width: 700px;
+     border: solid 1px rgb(195, 191, 191);
+     border-radius: 5px;
+}
+
+.AreaCharthead{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(230, 239, 238);
+    border-bottom: solid 1px rgb(195, 191, 191);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.AreaCharthead p{
+    margin-left: 10px;
+} 
+
+ /* Areal chart icon */
+.fa-chart-area{
+    margin-top: 5px;
+}
+
+.BarChart{
+    height: 300px;
+    width: 700px;
+    border: solid 1px rgb(195, 191, 191);
+    border-radius: 5px;
+}
+
+.BarCharthead{ 
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(230, 239, 238);
+    border-bottom: solid 1px rgb(195, 191, 191);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.BarCharthead p{
+    margin-left: 10px;
+}
+
+/* bar chart icon */
+.fa-chart-bar{
+    margin-top: 5px;
+}
+
+/* STATIC NAVIGATION PAGE CSS CODE */
+.staticNavigation{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.static_sub{
+    margin-top: 20px;
+    display: flex;
+}
+
+.static_sub a{
+    color: rgb(41, 41, 237);
+}
+
+.static_sub p{
+    margin-left: 10px;
+}
+
+.staticPara{
+    margin-top: 30px;
+    border: solid 1px rgb(150, 146, 146);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* LIGHT SLID NAV PAGE CSS CODE  */
+.sideNavLight{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sideNavli_sub{
+    display: flex;
+    margin-top: 20px;
+}
+
+.sideNavli_sub a{
+    color: rgb(41, 41, 237);
+}
+
+.sideNavli_sub p{
+    margin-left: 10px;
+}
+
+.sideNav_para{
+    margin-top: 30px;
+    border: solid 1px rgb(150, 146, 146);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* AUTHENTICTION SUB HEADS */
+/* LOGIN PAGE CSS CODE  */
+.wholelogIn{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(41, 41, 237);
+    padding: 10px;
+}
+
+.LogInPage{
+    height: 70vh;
+    width: 40vw;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1px;
+    
+}
+
+.loginPageLine{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.login{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+#email{
+    display: block;
+    height: 50px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+#password{
+    display: block;
+    height: 50px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#checkBox{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ForgotAndLog{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.ForgotAndLog a{
+    color: rgb(41, 41, 237);
+}
+
+.loginButton{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(41, 41, 237);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.signuppage{
+    padding: 20px;
+    margin-left: 150px;
+    color: rgb(41, 41, 237);
+}
+
+/* CREAT ACCOUNT PAGE CSS CODE */
+.creatAccWhpage{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(41, 41, 237);
+    padding: 10px; 
+}
+
+.creatAccInPage{
+    height: 80vh;
+    width: 40vw;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.firstLastName{
+   margin-left: 20px; 
+   margin-right: 20px;
+   margin-top: 20px;
+}
+
+.creatAccInPage h1{
+    margin-left: 150px;
+    margin-top: 30px;
+    
+}
+
+.FirstName{
+    width: 250px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.LastName{
+    width: 250px;
+    height: 60px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.creatAccInPage .EmailAddress{
+    width: 515px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.passWordWhole{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.passWordWhole .password{
+    width: 250px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.passWordWhole .confirmpassWord{
+    width: 250px;
+    height: 60px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.creatAcc{
+    margin-top: 30px;
+    width: 515px;
+    height: 50px;
+    background-color: rgb(41, 41, 237);
+    border: 1px solid rgb(41, 41, 237);
+    border-radius: 5px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.creatbtn{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.HaveAcc{
+    margin-left: 150px;
+    color: rgb(41, 41, 237);
+    
+}
+
+.creatAccLine{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+
+/* PASS WORD RECOVERY PAGE CSS CODE */
+.passwordRecovery{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(41, 41, 237);
+     padding: 10px; 
+}
+
+.passWordRecoveryinPage{
+    width: 40vw;
+    height: 50vh;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.passWordRecoveryinPage h1{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.passWordRecoveryinPage p{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: gray;
+}
+
+.passWordRecoveryinPage .EmailS{
+    width: 500px;
+    height: 70px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+} 
+
+.returnLoginResetPass{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.RestPass{
+    margin-left: 300px;
+    color: rgb(41, 41, 237);
+    text-decoration: none;
+}
+
+.ReturnLog{
+    color: rgb(41, 41, 237);
+    text-decoration: none;
+}
+
+.NeedAnAcc{
+    color: rgb(41, 41, 237);
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.passRecoveryLine{
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: gray;
+}
+
+
+
+
+/* ERROR PAGE 401 IN PAGES CODE (OR) THE CSS CODE OF ERROR PAGE 401 */
+
+.error401{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    /* margin-left: 45%; */
+    text-align: center;
+}
+
+.error401 h1{
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+.error401 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.error401 :nth-child(2){
+    font-size: 50px;
+    font-weight: 50px;
+}
+
+.error401 a{
+    color: rgb(27, 47, 228);
+    
+}
+
+/* ERROR PAGE 404 IN PAGES CODE (OR) THE CSS CODE OF ERROR PAGE 404 */
+
+.error404{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.error404 h1{
+    font-size: 100px;
+    font-weight: lighter;
+    color: rgb(119, 113, 113);
+}
+
+.error404 p{
+    margin-bottom: 20px;
+}
+
+.error404 a{
+    color: rgb(27, 47, 228);
+}
+
+/* ERROR PAGE 500 IN PAGES CODE (OR) THE CSS CODE OF ERROR PAGE 500 */
+
+.error500{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.error500 h1{
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+.error500 p{
+    margin-bottom: 20px;
+}
+
+.error500 a{
+    color: rgb(27, 47, 228);
+}
+
+/* DIFFERENT TYPE OF CHART PAGES CSS CODE */
+/* try3CHART.html page code decoration */
+.chartPage{
+    padding: 20px;
+}
+
+.DashAndChart{
+     display: flex;
+     margin-top: 20px;
+}
+
+.DashAndChart a{
+    color: rgb(27, 47, 228);
+}
+
+.DashAndChart p{
+    margin-left: 10px;
+}
+
+.chartpageExplainpara{
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.areaChartExam{
+    margin-top: 20px;
+    height: 500px;
+    width: 1475px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.areaChartHeading{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(230, 239, 238);
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.areaChartHeading p{
+    margin-left: 10px;
+}
+
+.arealbottom{
+    margin-top: 408px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(230, 239, 238);
+    border-top: 1px solid gray;
+}
+
+.barAndpie{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.barChartExam{
+    height: 300px;
+    width: 700px;
+    border: solid 1px rgb(195, 191, 191);
+    border-radius: 5px;
+}
+
+.barChartheading{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(230, 239, 238);
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.barChartheading p{
+    margin-left: 10px;
+}
+.barbottom{
+    margin-top: 208px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(230, 239, 238);
+    border-top: 1px solid gray;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.pieChartExam{
+    height: 300px;
+    width: 700px;
+    border: solid 1px rgb(195, 191, 191);
+    border-radius: 5px;
+}
+
+.pieChartheading{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(230, 239, 238);
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.pieChartheading p{
+    margin-left: 10px;
+}
+
+.piebottom{
+    margin-top: 208px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(230, 239, 238);
+    border-top: 1px solid gray;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+/* try3tables page css code */
+
+.TablePage{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.dashAndTable{
+    display: flex;
+    margin-top: 20px;
+}
+
+.dashAndTable a{
+    color: rgb(27, 47, 228);
+}
+
+.dashAndTable p{
+    margin-left: 10px;
+}
+
+.TablePara{
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.tableExam{
+    margin-top: 20px;
+    height: 700px;
+    width: 1475px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.tableExamphead{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(230, 239, 238);
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.tableExamphead .fa-table{
+    margin-top: 5px;
+}
+
+.tableExamphead p{
+    margin-left: 10px;
+}
+
+
+
+
+                                       /* Media query */
+
+
+@media (max-width:900px) {
+/*fpontainer = first page whole container   */
+
+.fpContainer{
+    height: 200vh;
+    width: 100%;
+}
+
+/* navbar display */
+.searchbar{
+    display: none;
+}
+
+.UserDetail{
+    display: none;
+}
+
+/* side Menu */
+/* AUTHENTICTION SUB HEADS */
+/* LOGIN PAGE CSS CODE  */
+.wholelogIn{
+    width: 100%;
+    height: 100vh;
+}
+
+.LogInPage{
+    margin-left: 30px;
+    width: 400px;
+}
+
+#email{
+    width: 300px;
+}
+
+#password{
+    width: 300px;
+}
+
+.signuppage{
+    margin-left: 70px;
+}
+
+/* CREAT ACCOUNT PAGE CSS CODE */
+.creatAccWhpage{
+    width: 100%;
+    height: 900px;
+}
+
+.creatAccInPage{
+    margin-left: 30px;
+    width: 400px;
+    height: 700px;
+}
+
+.creatAccInPage h1{
+    margin-left: 70px;
+}
+
+.FirstName{
+    width: 300px;
+}
+
+.LastName{
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.creatAccInPage .EmailAddress{
+    width: 300px;
+}
+
+.passWordWhole .password{
+    width: 300px;
+}
+
+.passWordWhole .confirmpassWord{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.HaveAcc{
+    margin-left: 100px;
+}
+
+/* PASS WORD RECOVERY PAGE CSS CODE */
+.passwordRecovery{
+    width: 100%;
+    height: 700px;
+}
+
+.passWordRecoveryinPage{
+    width: 400px;
+    height: 450px;
+    margin-left: 50px;
+}
+
+.passWordRecoveryinPage h1{
+    margin-left: 40px;
+}
+
+.passWordRecoveryinPage .EmailS{
+    width: 350px;
+}
+
+.NeedAnAcc{
+    margin-left: 100px;
+}
+
+.passRecoveryLine{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* DIFFERENT TYPE OF CHART PAGES CSS CODE */
+/* try3CHART.html page code decoration */
+.chartpageExplainpara{
+    margin-right: 20px;
+}
+
+.areaChartExam{
+    width: 450px;
+}
+
+.barAndpie{
+    flex-direction: column;
+}
+
+.barChartExam{
+    width: 400px;
+    
+}
+
+.pieChartExam{
+    width: 400px;
+    margin-top: 5px;
+}
+
+/* try3tables page css code */
+
+.TablePara{
+    margin-right: 20px;
+}
+
+.tableExam{
+    width: 450px;
+}
+/* Card Detail    like primary, warning, successs, & danger cards  */
+
+.cardDetails{
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.primaryCard{
+    margin-top: 20px;
+}
+
+.warningCard{
+    margin-top: 20px;
+}
+
+.successCard{
+    margin-top: 20px; 
+}
+
+.dangerCard{
+    margin-top: 20px;
+}
+
+.creatAcc{
+    width: 300px;
+}
+
+.RestPass{
+    margin-left: 150px;
+}
+
+ /* differet kind of chart exlpanation      chartEg=chart example*/
+
+.ChartEg{
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.AreaChart{
+    width: 400px;
+    height: 300px;
+}
+
+.BarChart{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+}

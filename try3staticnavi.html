@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Navigation</title>
+    <link rel="stylesheet" href="./try3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/9d48f5f62c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="fpContainer">   
+
+        <nav class="navbar">
+            <h3>Start Bootstrap</h3>
+            <div class="hamburgerMenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="searchbar">
+                 <input type="text" class="searchPlace" value="Search for...  "> 
+                 <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="UserDetail">
+                <i class="fa-solid fa-user"></i>            <!--user icon -->
+                <i class="fa-solid fa-caret-down"></i>           <!--down arrow icon  -->
+            </div>
+        </nav>
+        
+        <!-- sideMenu -->
+        <div class="sideMenu">
+        <div class="sideMenu1">
+            <h5>CORE</h5>
+            <div class="core">               
+                    <i class="fa-solid fa-gauge"></i>
+                    <a href="./index.html">Dash Board</a>
+            </div>
+
+            <h5 class="interfaceOut">INTERFACE</h5>
+            <ul class="interFace">
+                <li class="layout">
+                    <i class="fa-regular fa-address-card"></i>
+                    <a href="#">Layout</a>
+                    <i class="fa-solid fa-greater-than"></i>
+                    <ul class="layoutUl">
+                        <li class="layoption1"><a href="./try3staticnavi.html" >Static Navigation</a></li>
+                        <li class="layoption2"><a href="./try3lightslid.html" >Light Sidenav</a></li>
+
+                    </ul> 
+                </li>
+                <li class="pages">
+                    <i class="fa-solid fa-book-open"></i>
+                    <a href="#" class="page_manu">pages</a>
+                    <i class="fa-solid fa-greater-than"></i>
+                    <ul class="Authentic">
+                        <li>
+                            <a href="#" class="AuthenticHead">Authentication</a>
+                            <ul class="AuthenticInUL">
+                                <li><a href="./try3login.html">Login</a></li>
+                                <li><a href="./try3Creataccount.html">Register</a></li>
+                                <li><a href="./try3PassWordRecovery.html">Forgot password</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="ErrorHead">Error</a>
+                            <ul class="ErrorPages">
+                                <li><a href="./try3Error401.html">401 Page</a></li>
+                                <li><a href="./try3Error404.html">404 Page</a></li>
+                                <li><a href="./try3Error500.html">500 Page</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li> 
+            </ul>
+
+            <h5 class="addonsOut">ADDONS</h5>
+            <div class="addons">
+                <div class="charts">
+                    <i class="fa-solid fa-chart-area"></i>
+                    <a href="./index.html">charts</a>
+                </div>
+               <div class="tables">
+                    <i class="fa-solid fa-table"></i>
+                    <a href="./try3tables.html">Tables</a>
+               </div>
+            </div> 
+            
+        </div> 
+        </div>
+
+        <div class="staticNavigation">
+            <h1>Static Navigation</h1>
+            <div class="static_sub">
+                <a href="./index.html">Dash board</a>
+                <p>/</p>
+                <p>Static navigation</p>
+            </div>
+            <p class="staticPara">This page is an example of using static navigation. By removing the .sb-nav-fixed class from the body , the top navigation and side navigation will become static on scroll. Scroll down this page to see an example.</p>
+        </div>
+    </div>
+
+   <script src="./try3.js"></script> 
+</body>
+</html>
