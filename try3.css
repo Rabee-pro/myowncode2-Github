@@ -1053,7 +1053,7 @@
 
 .LogInPage{
     margin-left: 10px;
-    width: 300px;
+    width: 330px;
 }
 
     .login{
@@ -1084,7 +1084,7 @@
 
 .creatAccInPage{
     margin-left: 10px;
-    width: 300px;
+    width: 330px;
     height: 700px;
 }
 
@@ -1117,6 +1117,7 @@
 }
     .creatAcc{
     width: 250px;
+    margin-left: 0px;
 }
 
 
@@ -1131,13 +1132,13 @@
 }
 
 .passWordRecoveryinPage{
-    width: 320px;
+    width: 340px;
     height: 500px;
     margin-left: 10px;
 }
 
 .passWordRecoveryinPage h1{
-    margin-left: -10px;
+    margin-left: -2px;
 }
 
 .passWordRecoveryinPage .EmailS{
