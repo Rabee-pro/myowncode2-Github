@@ -1214,17 +1214,17 @@
 
 .ChartEg{
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 20px;
     
 }
 
 .AreaChart{
-    width: 400px;
+    width: 280px;
     height: 300px;
 }
 
 .BarChart{
-    width: 400px;
+    width: 280px;
     height: 300px;
     margin-top: 20px;
 }
