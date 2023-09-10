@@ -735,7 +735,7 @@
     margin-left: 10px;
 }
 
-.RestPass{
+.restPass{
     margin-left: 300px;
     color: rgb(41, 41, 237);
     text-decoration: none;
@@ -1145,8 +1145,8 @@
 .passWordRecoveryinPage .EmailS{
     width: 240px;
 }
-    .RestPass{
-    margin-left: 150px;
+    .restPass{
+    margin-left: 50px;
 }
 
 .NeedAnAcc{
@@ -1220,10 +1220,6 @@
 
 .creatAcc{
     width: 300px;
-}
-
-.RestPass{
-    margin-left: 150px;
 }
 
  /* differet kind of chart exlpanation      chartEg=chart example*/
