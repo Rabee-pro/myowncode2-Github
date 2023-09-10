@@ -1052,22 +1052,30 @@
 }
 
 .LogInPage{
-    margin-left: 30px;
-    width: 400px;
+    margin-left: 10px;
+    width: 330px;
+}
+
+    .login{
+    margin-left: 100px;
+    margin-top: 10px;
 }
 
 #email{
-    width: 300px;
+    width: 250px;
+    margin-left: 20px;
 }
 
 #password{
-    width: 300px;
+    width: 250px;
+    margin-left: 20px;
 }
 
 .signuppage{
-    margin-left: 70px;
+    margin-left: 30px;
 }
 
+   
 /* CREAT ACCOUNT PAGE CSS CODE */
 .creatAccWhpage{
     width: 100%;
@@ -1075,41 +1083,47 @@
 }
 
 .creatAccInPage{
-    margin-left: 30px;
-    width: 400px;
+    margin-left: 10px;
+    width: 330px;
     height: 700px;
 }
 
 .creatAccInPage h1{
-    margin-left: 70px;
+    margin-left: 20px;
 }
 
 .FirstName{
-    width: 300px;
+    width: 250px;
 }
 
 .LastName{
     margin-left: 0px;
     margin-top: 20px;
-    width: 300px;
+    width: 250px;
 }
 
 .creatAccInPage .EmailAddress{
-    width: 300px;
+    width: 250px;
 }
 
 .passWordWhole .password{
-    width: 300px;
+    width: 250px;
 }
 
 .passWordWhole .confirmpassWord{
-    width: 300px;
+    width: 250px;
     margin-top: 20px;
     margin-left: 0px;
 }
+    .creatAcc{
+    width: 250px;
+    margin-left: 5px;
+    
+}
+
 
 .HaveAcc{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 /* PASS WORD RECOVERY PAGE CSS CODE */
@@ -1119,21 +1133,24 @@
 }
 
 .passWordRecoveryinPage{
-    width: 400px;
-    height: 450px;
-    margin-left: 50px;
+    width: 340px;
+    height: 500px;
+    margin-left: 10px;
 }
 
 .passWordRecoveryinPage h1{
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 .passWordRecoveryinPage .EmailS{
-    width: 350px;
+    width: 240px;
+}
+    .RestPass{
+    margin-left: 150px;
 }
 
 .NeedAnAcc{
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 .passRecoveryLine{
@@ -1148,7 +1165,7 @@
 }
 
 .areaChartExam{
-    width: 450px;
+    width: 280px;
 }
 
 .barAndpie{
@@ -1156,12 +1173,12 @@
 }
 
 .barChartExam{
-    width: 400px;
+    width: 280px;
     
 }
 
 .pieChartExam{
-    width: 400px;
+    width: 280px;
     margin-top: 5px;
 }
 
@@ -1172,29 +1189,33 @@
 }
 
 .tableExam{
-    width: 450px;
+    width: 280px;
 }
 /* Card Detail    like primary, warning, successs, & danger cards  */
 
 .cardDetails{
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .primaryCard{
     margin-top: 20px;
+    width: 280px;
 }
 
 .warningCard{
     margin-top: 20px;
+    width: 280px;
 }
 
 .successCard{
     margin-top: 20px; 
+    width: 280px;
 }
 
 .dangerCard{
     margin-top: 20px;
+    width: 280px;
 }
 
 .creatAcc{
@@ -1209,17 +1230,17 @@
 
 .ChartEg{
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 20px;
     
 }
 
 .AreaChart{
-    width: 400px;
+    width: 280px;
     height: 300px;
 }
 
 .BarChart{
-    width: 400px;
+    width: 280px;
     height: 300px;
     margin-top: 20px;
 }
