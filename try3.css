@@ -1117,7 +1117,7 @@
 }
     .creatAcc{
     width: 250px;
-    margin-left: 0px;
+    margin-left: 5px;
     
 }
 
@@ -1139,7 +1139,7 @@
 }
 
 .passWordRecoveryinPage h1{
-    margin-left: -2px;
+    margin-left: 0px;
 }
 
 .passWordRecoveryinPage .EmailS{
